@@ -62,11 +62,11 @@ body{
 }
 
 /* box */
-
+/* 
 .header{
     border-bottom: 1px solid #ececec;
     
-}
+} */
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -159,7 +159,7 @@ padding-bottom: 32px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.4;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     text-decoration: none;
