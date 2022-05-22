@@ -27,7 +27,7 @@
                 <!-- nav -->
 
                 <ul class="navigation-list">
-                    <li class="item-navigation item"><a  class="link link-navigation" href="./index.html">Студия</a></li>
+                    <li class="item-navigation item"><a  class="link link-after link-navigation" href="./index.html">Студия</a></li>
                     <li class="item-navigation item"><a  class="link link-navigation" href="./portfolio.html">Портфолио</a></li>
                     <li class="item-navigation item"><a  class="link link-navigation" href="Контакты">Контакты</a></li>
                 </ul>
@@ -64,7 +64,7 @@
                 Эффективные решения<br>
                 для вашего бизнеса
             </h1>
-            <button class="button " type="button">Заказать услугу</button>
+            <button data-modal-open class="button " type="button">Заказать услугу</button>
           
             </div>
         </section>
@@ -390,7 +390,7 @@
                     <li class="footer-socials-item">
                         <a class="socials-link socials-link-linkedin link" href="" aria-label="L inkedin">
                             <svg class="footer-socials-icon" width="20" height="20">
-                                <use href="./images/icon/sprite.svg#linkedin"></use>
+                                <use></use>
                             </svg>
                         </a>
                     </li>
@@ -398,6 +398,20 @@
             </div>
         </div>
     </footer>
+
+        
+            <div data-modal class="backdrop is-hidden">
+                <div class="modal">
+                    <button data-modal-close class="close-button">
+                        <svg width="11px" height="11px">
+                            <use  href="./images/icon/sprite.svg#x" ></use>
+                          </svg>
+                    </button>
+                </div>
+            </div>
+            <script src="./js/modal.js"></script>
+
+            
 </body>
 </html>
 
