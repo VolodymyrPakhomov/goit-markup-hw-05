@@ -447,7 +447,7 @@ color: var(--primary-text-color);
 .name{
 font-weight: 500;
 font-size: 16px;
-line-height: 1.8;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
@@ -457,7 +457,7 @@ margin-bottom: 10px;
 .job{
  font-weight: 400;
 font-size: 16px;
-line-height: 1.8;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
